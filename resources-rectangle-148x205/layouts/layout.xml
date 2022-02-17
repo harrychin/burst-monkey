@@ -1,0 +1,31 @@
+<!--
+ Copyright 2022 Harrison Chin
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+     http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<layout id="MainLayout">
+    <label id="labelTitle" x="center" y="5" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" text="@Strings.title" font="Graphics.FONT_TINY"/>
+
+    <label id="labelRxFail" x="center" y="45" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" text="@Strings.rxFail" font="Graphics.FONT_TINY" />
+    <label id="rxFail" x="center" y="65" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+
+    <label id="labelRxSuccess" x="center" y="85" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" text="@Strings.rxSuccess" font="Graphics.FONT_TINY" />
+    <label id="rxSuccess" x="center" y="105" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+
+    <label id="labelTxFail" x="center" y="125" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" text="@Strings.txFail" font="Graphics.FONT_TINY" />
+    <label id="txFail" x="center" y="145" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+
+    <label id="labelTxSuccess" x="center" y="165" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" text="@Strings.txSuccess" font="Graphics.FONT_TINY" />
+    <label id="txSuccess" x="center" y="185" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+</layout>
